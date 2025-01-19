@@ -1,0 +1,29 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [
+				"s3:*",
+				"glue:*",
+				"iam:*",
+				"logs:*",
+				"cloudwatch:*",
+				"sqs:*",
+				"ec2:*",
+				"rds:*",
+				"cloudtrail:*",
+				"athena:GetWorkGroup",
+				"athena:ListWorkGroups",
+				"athena:StartQueryExecution",
+				"athena:GetQueryExecution",
+				"athena:GetQueryResults",
+				"athena:StopQueryExecution"
+			],
+			"Resource": [
+				"*"
+			]
+		}
+	]
+}
